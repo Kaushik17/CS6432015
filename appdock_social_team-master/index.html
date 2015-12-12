@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AppDock-Social</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="http://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>	
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+
+<style>
+.welcome-social{
+	min-height:760px;
+	background:#312c0f url("images/homepagebg.png") no-repeat ;
+	background-position:center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	background-size: cover;
+}
+.fix-btn{
+	margin-bottom:80px;
+}
+
+</style>
+
+</head>
+
+<body>
+<div data-role="page">
+	<div data-role="header" class="header">
+		<h1>Welcome to App Dock - Social</h1>
+	</div>
+	<div data-role="main" class="ui-content welcome-social">
+		<div class="ui-grid-">
+            <img src="images/homepage.png" alt="image" style="position: relative; top: 50%; left: 50%;   margin-left: -512px;"/>
+        </div>
+    	<div class="ui-grid-c  fix-btn" style="position: relative; top:70%">	
+    		<div class="ui-block-a"></div>
+			<div class="ui-block-b"><a href="socialfb.html" data-role="button">AppDock Facebook</a></div>
+			<div class="ui-block-c"><a href="socialyt.html" data-role="button">AppDock Youtube</a></div>
+		</div>
+  	</div>
+	<div data-role="footer">
+		<div data-role="navbar">
+				<ul>
+					<li><a href="#" data-icon="home">Home</a></li>
+					<li><a href="#" data-icon="grid">Apps</a></li>
+					<li><a href="#" data-icon="alert">Developers</a></li>
+					<li><a href="#" data-icon="info">Feedback</a></li>
+					<li><a href="index.html" data-icon="star" class="ui-btn-active ui-state-persist" >Social</a></li>
+				</ul>
+		</div>
+	</div>
+
+</div> 
+
+</body>
+
+</html>
